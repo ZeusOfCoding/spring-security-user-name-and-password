@@ -2,9 +2,9 @@ server:
   port: 9091
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-security-user-name-and-password
-    username: root
-    password: mysql123
+    url: jdbc:postgresql://localhost:5432/spring-security-user-name-and-password
+    username: blaise
+    password: postgres123
   jpa:
     hibernate:
       ddl-auto: update
